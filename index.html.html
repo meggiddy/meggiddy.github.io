@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Maggie</title>
+	
+<!-- Favicon -->
+<link href="img/icon.png" rel="icon">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="maggies-css.css"/>
+</head>
+
+<body>
+
+  <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Image" width="150px" height= "150px">
+  
+  <h1 class="font-weight-bold">Maggie Muriithi</h1>
+      
+<ul>
+    <li>About Me</li>
+    <li><a href= "workhistory.html" target="_blank">Work Experience</a></li>
+    <li><a href= "ambitions.html" target="_blank">Ambitions and Dreams</a></li>
+    <li>2022 Goals</li>
+</ul>
+
+<div class="intro">
+    <p>Hello! I'm Maggie Muriithi and im learning how to be a Software Engineer!
+    Welcome to my Website!!
+    </p>
+</div>
+
+<div class="title1"><h2>My Journey</h2></div>
+
+<p>Im a 24 year old Kenyan living in Malindi. I studied Real Estate and Property Management in the University of Nairobi.
+I was able to work with some of the best Real Estate firms in Nairobi.</p>
+    
+<p>I recently discovered the amazing world of coding and I fell in love with it. I am a very creative person and Software Engineering helps me to explore that side of my interests.</p>
+
+
+<div id="chart_div">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+
+  google.charts.load('current', {'packages':['corechart']});
+
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Topping');
+    data.addColumn('number', 'Slices');
+    data.addRows([
+      ['Real Estate', 3],
+      ['Sales', 2],
+      ['HTML', 2],
+      ['CSS', 1]
+    ]);
+
+    var options = {'title':'My Work Experience',
+                   'width':400,
+                   'height':300};
+
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+</script>
+</div>
+
+
+<p>The thing about Coding that i really like is that you fix problems and also that you are able to see your creation come to life.
+TBH Ive tried to put margins on the pie chart and nothing worked so thats where I gave up lol.
+I'll figure it out tomorrow tihihihi.</p>
+
+</body>
+</html>
