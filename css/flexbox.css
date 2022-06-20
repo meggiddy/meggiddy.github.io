@@ -1,0 +1,97 @@
+body{
+    font-size: 17px;
+    color: rgb(243, 16, 129);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: rgb(243, 16, 129);
+    font-family: 'optima';
+    font-style: italic;
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+    font-size: 60px;
+    background-color: lavender;
+
+}
+
+section {
+    max-width: 740px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+.flex-container{
+    display:flex;
+    background-color: rgb(206, 255, 255);
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.flex-box1{
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border: 1px solid black;
+}
+
+.flex-box2{
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border: 1px solid black;
+
+}
+
+.flex-box3{
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border: 1px solid black;
+
+}
+
+.flex-box4{
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border: 1px solid black;
+
+}
+
+.wrapper{
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border: 1px solid black;
+
+}
+
